@@ -10980,3 +10980,38 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+/* CSS DOS PROJETOS */
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background: #000;
+}
+
+.swiper-wrapper img {
+  width: 300px;
+  height: 300px;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+}
+
+.projeto a {
+  margin-top: 4px;
+}
+
+.texto_descricao_projeto {
+  font-weight: bold;
+  font-size: 18px;
+  color: #bd5d38;
+}
